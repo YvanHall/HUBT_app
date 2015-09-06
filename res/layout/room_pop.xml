@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="95dp"
+        android:background="#F7F7F7"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/room1"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:background="@drawable/selector_room1_change" />
+
+            <Button
+                android:id="@+id/room2"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/selector_room2_change" />
+
+            <Button
+                android:id="@+id/room3"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/selector_room3_change" />
+
+            <Button
+                android:id="@+id/room4"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/selector_room4_change" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/room5"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:background="@drawable/selector_room5_change" />
+
+            <Button
+                android:id="@+id/room6"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/selector_room6_change" />
+
+            <Button
+                android:id="@+id/room7"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/selector_room7_change" />
+
+            <Button
+                android:id="@+id/room8"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/selector_room8_change" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/line_out" />
+
+</LinearLayout>

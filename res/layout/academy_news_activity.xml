@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#59C1EF"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/aca_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/aca_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="艺设"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/aca_news_ib"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/selector_aca_news_button_change" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/academy_news_sidebar_ib"
+            android:layout_width="65dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:src="@drawable/selector_sidebar_change" />
+    </FrameLayout>
+
+        <ListView
+            android:id="@+id/list_aca"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@android:color/transparent" 
+            android:divider="@null" />
+
+</LinearLayout>

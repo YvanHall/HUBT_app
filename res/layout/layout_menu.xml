@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="fill_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="130dp" >
+
+        <ImageButton
+            android:id="@+id/login_ib"
+            android:layout_width="280dp"
+            android:layout_height="130dp"
+            android:background="#59C1EF"
+            android:src="@drawable/selector_sidebar_login_item" />
+
+        <ImageView
+            android:id="@+id/user_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="60dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageButton
+            android:id="@+id/room_ib"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="#F7F7F7" 
+            android:src="@drawable/selector_sidebar_item"/>
+
+        <TextView
+            android:id="@+id/room_tv"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="87.5dp"
+            android:text="查教室"
+            android:textColor="#4D4D4D"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/room_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="32.5dp"
+            android:src="@drawable/search_room" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="60dp" >
+
+        <ImageButton
+            android:id="@+id/score_ib"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="#F7F7F7" 
+            android:src="@drawable/selector_sidebar_item"/>
+
+        <TextView
+            android:id="@+id/score_tv"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="87.5dp"
+            android:text="查成绩"
+            android:textColor="#4D4D4D"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/score_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="32.5dp"
+            android:src="@drawable/search_score" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="60dp" >
+
+        <ImageButton
+            android:id="@+id/map_ib"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="#F7F7F7"
+            android:src="@drawable/selector_sidebar_item" />
+
+        <TextView
+            android:id="@+id/map_tv"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="85dp"
+            android:text="校园地图"
+            android:textColor="#4D4D4D"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/map_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="31.25dp"
+            android:src="@drawable/school_map" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="60dp" >
+
+        <ImageButton
+            android:id="@+id/news_ib"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="#F7F7F7"
+            android:src="@drawable/selector_sidebar_item" />
+
+        <TextView
+            android:id="@+id/new_tv"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="87.5dp"
+            android:text="资讯"
+            android:textColor="#4D4D4D"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/new_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="32.5dp"
+            android:src="@drawable/news" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="60dp" >
+
+        <ImageButton
+            android:id="@+id/academy_ib"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:background="#F7F7F7"
+            android:src="@drawable/selector_sidebar_item" />
+
+        <TextView
+            android:id="@+id/aca_tv"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="87.5dp"
+            android:text="院系新闻"
+            android:textColor="#4D4D4D"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/aca_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="32.5dp"
+            android:src="@drawable/academy_news" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_width="226dp"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="27dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/line_out" />
+
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true" >
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="82.5dp"
+                android:text="第九周 星期一 第12节课"
+                android:textColor="#808080"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/schedule" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

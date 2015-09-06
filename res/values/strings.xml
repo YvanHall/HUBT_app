@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">你好！湖工</string>
+    <string name="username">学号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="remember">记住密码</string>
+    <string name="landing">正在登录. . . </string>
+    <string name="cancel">取消</string>
+    <string name="title_main_page">主页</string>
+    <string name="title_class_schedule">教学课表</string>
+    <string name="title_personal_schedule">学生个课表</string>
+    <string name="title_info_page">学生个人信息</string>
+    <string name="info_name">姓      名</string>
+    <string name="info_stu_num">学      号</string>
+    <string name="info_class_name">班      级</string>
+    <string name="info_IDCard">身份证号</string>
+    <string name="info_sex">性       别</string>
+    <string name="info_ethnic">民      族</string>
+    <string name="info_college">所属学院</string>
+    <string name="info_major">专      业</string>
+    <string name="info_year">学      制</string>
+    <string name="info_political_status">政治面貌</string>
+    <string name="info_birthday">出生日期</string>
+    <string name="info_enterscholl">入校日期</string>
+    <string name="info_left_scholl">离校日期</string>
+    <string name="change_title">修改密码</string>
+    <string name="change_oldpw">原密码</string>
+    <string name="change_newpw">新密码</string>
+    <string name="change_conpw">确认密码</string>
+    <string name="change_button">修改</string>
+    <string name="public_title">公选课信息</string>
+    <string name="public_task_no">任务编号</string>
+    <string name="public_task_name">课程名称</string>
+    <string name="public_task_place">课程地点</string>
+    <string name="public_task_type">课程类型</string>
+    <string name="public_task_college">院系</string>
+    <string name="public_task_credit">学分</string>
+    <string name="public_exam_times">考次</string>
+    <string name="public_task_score">成绩</string>
+    <string name="title_activity_chose">选择</string>
+    <string name="others_schedule_input_hint1">输入小伙伴的学号(10位)</string>
+    <string name="others_schedule_input_hint2">比如：1110321229</string>
+    <string name="chose_ok">确定</string>
+    <string name="chose_schedule_type_title">请选择查询课表的类别</string>
+    <string name="net_schedule">网络课表</string>
+    <string name="others_schedule">小伙伴课表</string>
+    <string name="local_schedule">本地课表</string>
+    <string name="action_settings">设置</string>
+    <string name="desc">图片</string>
+    <string name="schedule_name">课程名</string>
+    <string name="schedule_teacher">授课老师</string>
+    <string name="schedule_place">课程地点</string>
+    <string name="schedule_week">课程周数</string>
+    <string name="refresh">刷新</string>
+    <string name="chose_term">选择学期</string>
+    <string name="about_us">关于我们</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="others_score">小伙伴课表</string>
+    <string name="string_stu_id">小伙伴学号</string>
+
+    <color name="green">#64ed89</color>
+    <color name="light_green">#37de6a</color>
+    <color name="gray">#CD853F</color>
+
+        <string name="about_us_bottom_txt">"www.hgdonline.net
+Powered by Edian Studio"</string>
+    <string name="about_us_service_qq_txt">"合作QQ：4924724
+Email:admin@hgdonline.net"</string>
+    <string name="about_us_title">关于我们</string>
+    <string name="about_us_txt">\u0009\u0009 我们是一群热爱技术,更热爱生活的小伙伴！我们每一个开发者,都经过国家节操安全标准筛选,请大家放心使用此APP,不用担心密码被盗等问题。</string>
+<string name="about_us_txv_version">"H BUT
+Version 2.0"</string>
+    <string name="title_activity_chose_score">选择查询方式</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#59C1EF"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/news_event_back_ib"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/selector_back_change" />
+
+        <TextView
+            android:id="@+id/news_event_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22.5dp"
+        android:layout_marginTop="25dp"
+        android:text="腾讯发布高校创业榜 湖工大"
+        android:textColor="#4D4D4D"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22.5dp"
+            android:text="2015-01-27"
+            android:textColor="#808080"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:text="09:46:00"
+            android:textColor="#808080"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22.5dp"
+                android:text="       自2011年腾讯正式宣布开放以来，腾讯开放平台上的创业者人数达到500万，创业者公司总市值达到了2000亿。创业生态从线上延伸到线下，在全国各地掀起全民创业热潮。创业热潮背后，可以发现高校创业氛围对于人才的培养，以及各地域创业扶持都功不可没。"
+                android:textColor="#4D4D4D"
+                android:textSize="15dp" 
+                android:lineSpacingExtra="6dp"/>
+
+</LinearLayout>

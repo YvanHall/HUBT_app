@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/hsview_week"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" 
+        android:fadingEdge="none"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:background="#FFFFFF"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week1" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week2" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week3" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week4" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week5" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week6" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week7" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week8" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week9" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week10_in" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week11" />
+            
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week12" />
+            
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week13" />
+            
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week14" />
+            
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week15" />
+            
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week16" />
+            
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week17" />
+            
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/week18" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:scaleType="fitXY"
+        android:src="@drawable/line_out" />
+
+</LinearLayout>

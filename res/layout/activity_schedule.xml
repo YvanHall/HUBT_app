@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Schedule_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7e6ec"
+    tools:context=".ScheduleActivity" >
+
+    <TextView
+        android:id="@+id/text_schedule_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#92bacb"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <com.young.util.DropDownListView
+        android:id="@+id/list_schedule_course"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/text_schedule_title"
+        android:cacheColorHint="#d7e6ec" >
+    </com.young.util.DropDownListView>
+
+</RelativeLayout>

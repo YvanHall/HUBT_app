@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/about_us_ib"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="#59C1EF"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50.5dp"
+            android:text="关于我们"
+            android:textColor="#ffffff"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="19.25dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/about_us_icon" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/check_update_ib"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="#59C1EF"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50.5dp"
+            android:text="检查更新"
+            android:textColor="#ffffff"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="19.25dp"
+            android:src="@drawable/check_update_icon" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/logout_ib"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="#59C1EF"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50.5dp"
+            android:text="退出账号"
+            android:textColor="#ffffff"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="19.25dp"
+            android:src="@drawable/logout_icon" />
+    </FrameLayout>
+
+</LinearLayout>

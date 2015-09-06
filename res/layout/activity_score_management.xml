@@ -1,0 +1,55 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7" 
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#59C1EF"
+            android:scaleType="fitXY" />
+
+        <ImageView 
+                android:id="@+id/score_back_ib"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/selector_back_change"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="查成绩"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </FrameLayout>
+    
+    <TextView
+        android:id="@+id/score_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp" 
+        android:textColor="#4D4D4D"/>
+
+    <ImageView 
+        android:layout_marginTop="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:scaleType="fitXY"
+        android:src="@drawable/line_out"/>
+    <ListView 
+        android:id="@+id/score_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        ></ListView>
+
+</LinearLayout>
